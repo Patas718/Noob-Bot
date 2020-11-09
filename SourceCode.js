@@ -6,7 +6,7 @@ const client = new Discord.Client();
 const prefix = '!';
 
 client.once('ready', () => {
-    console.log('Patas#1107 is join on my discord server');
+    console.log('Your Bot is Ready');
 });
 
 client.on('message', message =>{
