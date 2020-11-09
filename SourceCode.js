@@ -6,7 +6,7 @@ const client = new Discord.Client();
 const prefix = '!';
 
 client.once('ready', () => {
-    console.log('Your Bot is Ready');
+    console.log('Your Bot is Ready!');
 });
 
 client.on('message', message =>{
